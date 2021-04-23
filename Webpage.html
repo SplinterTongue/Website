@@ -6,13 +6,79 @@
     <meta name ="author" content = "Tom Pol">
     <meta name = "description" content = "Website for Learning JSS and Shit">
     <meta name = "viewport" content = "width=device-width, intitial-scale=1">
+
+
+    <style>
+        body {
+            margin-top:0px;
+            font-family: 'Segoue UI' , Tahoma, Geneva, Verdana, sans-serif;
+            margin-left:auto;
+            margin-right:auto;
+            background-color: #e6e4d9;
+            color:black;
+            }
+
+        #mainHeader{
+            background-color:blue;
+            }
+            
+        nav{
+            height:60px;
+            width:1000px;
+            margin: 0 auto 20px;
+        }
+
+        #leftMenu{
+            float: left;
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .searchbox{
+            padding:5px;
+            margin:10px 10px;
+            width:200px;
+        }
+        #main{
+            float:right;
+            width:70%;
+            margin-bottom:20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>What the point of this webpage?</h1>
+    <header id = "mainHeader">
+        <nav>
+            <h1>Whats the point of this webpage?</h1>
+        </nav>
+      
     </header>
+
+    <div style = "width:1000px; margin-left: auto; margin-right: auto;">
+        <aside id = "leftMenu">
+            <header>
+                <h4 style = "text-align: center;">Take a look around</h4> 
+            </header>
+
+            <input type = "search" class="searchbox" placeholder = "Search around"/>
+
+        </aside>
+        
+        <main id = "main">
+            <article>
+                <header> 
+                    <h1 stlye = "font-size:40px; color: #a593c2">Welcome to the jungle</h1>
+                </header>
+                <h2>We have fun and games ;)</h2>
+                <p> I am pretty much writing this as <b>PLACEHOLDER</b><i>Text</i></p>
+
+
+            </article>
+
+        </main>
+    </div>
    
-    <p>The purpose of this webpage is to learn how to create a webpage from scratch</p>
+
     
 
 
